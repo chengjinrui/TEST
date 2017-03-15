@@ -15,5 +15,6 @@
 	git reflog 查看历史包括了各种操作甚至是回滚操作都有 显示的内容的第一项是一个唯一的id表示
 
 	git reset 
-	git checkout
+	git checkout    --1 add之前  直接 git checkout -- <file>
+			--2 add之后  先回滚 git reset Head <file> 然后再git checkout
 
